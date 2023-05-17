@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+
+    /* border: solid 1px red; */
+}
+
+.navbar-container {
+    background-color: rgba(9, 194, 174, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.navbar-2a {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+
+}
+
+.navbar-3b {
+    display: flex;
+    column-gap: 70px;
+}
+
+.navbar-3b p {
+    color: white;
+    font-size: 22px;
+    line-height: 39px;
+}
+
+.main-body {
+    background-color: rgba(9, 194, 174, 1);
+    font-family: 'Adamina', serif;
+    height: 100vh;
+    position: relative;
+}
+
+.div-1 {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.div-1-pa {
+    color: white;
+    font-size: 50px;
+    line-height: 68px;
+}
+
+.div-1-pb {
+    font-size: 50px;
+    line-height: 63px;
+    font-family: 'Abel', sans-serif;
+}
+
+.div-1-pb span {
+    font-size: 50px;
+    line-height: 63px;
+    font-family: 'Adamina', serif;
+}
+
+.div-2 {
+    background-image: url("../images/body/mountainBody.png");
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.div-2-inner {
+    max-width: 1550px;
+    margin: 0 auto;
+    padding-top: 130px;
+
+}
+
+.div-2-inner-pa {
+    color: white;
+    font-size: 53px;
+    line-height: 64px;
+}
+
+.div-2-inner-pb {
+    color: whitesmoke;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    max-width: 448px;
+    padding: 15px 0;
+}
+
+.div-2-inner-button {
+    margin-top: 150px;
+    padding: 30px 70px;
+    font-size: 26px;
+    background-color: rgba(9, 194, 174, 1);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 20px;
+    box-shadow: 0px 16px 15px rgba(0, 0, 0, 0.5);
+    ;
+
+}
+
+.div-3 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 200px;
+    right: 55px;
+}
